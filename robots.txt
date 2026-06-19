@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://chasaumahaue.github.io/web-cn-1xbet-com/sitemap.xml

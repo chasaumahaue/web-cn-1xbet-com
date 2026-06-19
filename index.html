@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>简明指南 · 1xbet 信息卡片页</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+      background: #f7f9fc;
+      color: #1e2a3a;
+      line-height: 1.6;
+      padding: 2rem 1.5rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .page {
+      max-width: 680px;
+      width: 100%;
+    }
+
+    /* hero */
+    .hero {
+      margin-bottom: 3rem;
+    }
+    .hero h1 {
+      font-size: 2.2rem;
+      font-weight: 500;
+      letter-spacing: -0.02em;
+      color: #0e1a2b;
+      line-height: 1.2;
+      margin-bottom: 0.6rem;
+    }
+    .hero p {
+      font-size: 1.05rem;
+      color: #4a5b6e;
+      max-width: 520px;
+    }
+
+    /* 卡片通用 */
+    .card {
+      background: #ffffff;
+      border-radius: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.02), 0 1px 4px rgba(0,0,0,0.04);
+      padding: 2rem 2rem 2.2rem;
+      margin-bottom: 2.2rem;
+      transition: box-shadow 0.2s;
+    }
+    .card:hover {
+      box-shadow: 0 8px 24px rgba(0,0,0,0.04), 0 2px 6px rgba(0,0,0,0.02);
+    }
+
+    .card h2 {
+      font-size: 1.4rem;
+      font-weight: 500;
+      color: #0e1a2b;
+      margin-bottom: 1.2rem;
+      letter-spacing: -0.01em;
+      border-bottom: 1px solid #eef2f6;
+      padding-bottom: 0.55rem;
+    }
+
+    .card p, .card li {
+      font-size: 0.96rem;
+      color: #2a3a4e;
+    }
+
+    .card ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    .card li {
+      padding: 0.4rem 0 0.4rem 1.5rem;
+      position: relative;
+    }
+    .card li::before {
+      content: "·";
+      position: absolute;
+      left: 0.1rem;
+      color: #7e8b9f;
+      font-weight: 600;
+    }
+
+    .highlight-link {
+      color: #1a5c9e;
+      text-decoration: none;
+      font-weight: 480;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.15s;
+    }
+    .highlight-link:hover {
+      border-bottom-color: #1a5c9e;
+    }
+
+    .notice-box {
+      background: #f0f4fa;
+      border-radius: 14px;
+      padding: 1.4rem 1.8rem;
+      margin-top: 0.8rem;
+      font-size: 0.92rem;
+      color: #1e2e42;
+      border-left: 3px solid #b6c9e0;
+    }
+
+    .faq-item {
+      margin-bottom: 1.2rem;
+    }
+    .faq-item strong {
+      display: block;
+      font-weight: 500;
+      color: #0e1a2b;
+      margin-bottom: 0.2rem;
+    }
+    .faq-item p {
+      margin: 0;
+    }
+
+    .footer-note {
+      margin-top: 2.8rem;
+      padding-top: 1.2rem;
+      border-top: 1px solid #e0e6ee;
+      font-size: 0.85rem;
+      color: #6d7b8d;
+      text-align: center;
+    }
+
+    @media (max-width: 480px) {
+      body {
+        padding: 1.5rem 1rem;
+      }
+      .hero h1 {
+        font-size: 1.8rem;
+      }
+      .card {
+        padding: 1.5rem 1.3rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <!-- hero -->
+    <div class="hero">
+      <h1>简明指南 · 信息卡片</h1>
+      <p>关于平台用途、访问提醒与常见疑问的轻量整理，方便你快速了解大致轮廓。</p>
+    </div>
+
+    <!-- 卡片：主视觉与一句话定位 -->
+    <div class="card">
+      <h2>平台定位</h2>
+      <p>一些在线服务提供体育赛事、娱乐游戏以及互动体验的集成环境。<a href="https://web-cn-1xbet.com" class="highlight-link">1xbet</a> 属于这一类别中较常被提及的名字，其界面与功能覆盖多个模块，用户可根据自身兴趣选择浏览。</p>
+      <p style="margin-top: 0.8rem;">如果你刚接触这类平台，不妨先花几分钟熟悉页面结构、语言选项以及常用操作路径，这会让后续使用更顺畅。</p>
+    </div>
+
+    <!-- 卡片：用途场景 -->
+    <div class="card">
+      <h2>常见用途卡片</h2>
+      <ul>
+        <li>体育赛事直播与实时数据查阅 —— 涵盖足球、篮球、网球等主流项目。</li>
+        <li>虚拟体育与即时娱乐 —— 模拟赛果、快速对局，适合碎片时间。</li>
+        <li>游戏与电竞赛事 —— 部分平台设有专门的电竞板块，关注热门比赛。</li>
+        <li>账户与资金管理 —— 存款、提现、优惠活动通常集中在个人中心。</li>
+      </ul>
+      <div class="notice-box">
+        <strong>一点提醒</strong>：不同地区对在线娱乐平台的规定存在差异，使用前请自行确认本地法律环境。同时保管好账户信息，避免在公共网络下做敏感操作。
+      </div>
+    </div>
+
+    <!-- 卡片：适合人群 -->
+    <div class="card">
+      <h2>适合什么样的人</h2>
+      <p>体育爱好者、电竞观众、喜欢轻度策略游戏的人，以及那些对实时数据与赔率变动有一定好奇心的用户，都有可能对这类界面产生兴趣。如果你只是为了打发时间，平台内的虚拟赛事或快速模式或许更契合。</p>
+      <p style="margin-top: 0.8rem;">相反，如果你对数字娱乐不敏感，或者更偏好线下活动，那么这类服务可能不会成为你的日常选择——这完全正常。</p>
+    </div>
+
+    <!-- 卡片：FAQ 摘要 -->
+    <div class="card">
+      <h2>常见疑问摘要</h2>
+      <div class="faq-item">
+        <strong>是否需要注册才能浏览？</strong>
+        <p>大部分内容（如赛事列表、赔率展示）可以无需登录查看，但参与投注或使用完整功能需要创建账户。</p>
+      </div>
+      <div class="faq-item">
+        <strong>如何切换语言或货币？</strong>
+        <p>通常页面顶部或设置菜单提供语言和货币选项，中文界面可在语言下拉中找到。</p>
+      </div>
+      <div class="faq-item">
+        <strong>访问时遇到加载问题怎么办？</strong>
+        <p>可尝试更换网络环境、清除浏览器缓存，或确认网址是否正确。如果你常使用 <a href="https://web-cn-1xbet.com" class="highlight-link">1xbet</a>，建议收藏备用链接。</p>
+      </div>
+    </div>
+
+    <!-- 自然链接段落 -->
+    <div class="card" style="background: #fafcff;">
+      <p style="margin: 0 0 0.6rem 0;">如果你打算进一步了解或亲自体验，可以直接前往 <a href="https://web-cn-1xbet.com" class="highlight-link">1xbet</a> 查看最新的界面和功能布局。建议初次访问时先浏览帮助中心或常见问题板块。</p>
+      <p style="margin: 0.8rem 0 0 0;">所有信息请以网站实际展示为准，本文仅提供概括性介绍，不构成任何操作建议。</p>
+    </div>
+
+    <div class="footer-note">
+      <span>信息卡片 · 仅供了解参考</span>
+    </div>
+  </div>
+</body>
+</html>
